@@ -1,0 +1,13 @@
+{% extends './layout.html' %}
+{% block content %}
+  <h1>Foos</h1>
+  <ul>
+    {% for foo in foos %}
+      <li>
+        <a href='/foos/{{foo.id}}'>
+          {{ foo.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
