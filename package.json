@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ericpkatz/express-demo-1801#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "faker": "^4.1.0"
   }
 }
